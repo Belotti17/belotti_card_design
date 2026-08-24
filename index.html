@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[MON NOM] - Full-Stack Developer & UI/UX Designer</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <!-- YOUR LOGO HERE -->
+            <div class="loader-logo">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <h2 class="loader-name">[MON NOM]</h2>
+            <p class="loader-text">Preparing digital experience...</p>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-circle" id="cursorCircle"></div>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <!-- Logo -->
+                <div class="sidebar-logo">
+                    <!-- YOUR LOGO HERE -->
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <!-- Identity -->
+                <div class="sidebar-identity">
+                    <h1 class="sidebar-name">[MON NOM]</h1>
+                    <p class="sidebar-title">Full-Stack Developer<br>& UI/UX Designer</p>
+                </div>
+
+                <!-- Short Bio -->
+                <p class="sidebar-bio">
+                    Building digital experiences where code meets design.
+                </p>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="X / Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+
+                <!-- Status -->
+                <div class="sidebar-status">
+                    <span class="status-dot"></span>
+                    <span>Open to opportunities</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-text">
+                    <p class="hero-greeting">HELLO, I'M</p>
+                    <h1 class="hero-name">[MON NOM]</h1>
+                    
+                    <div class="animated-title">
+                        <span class="static-text">I </span>
+                        <span class="dynamic-text" id="dynamicText">DESIGN.</span>
+                    </div>
+                    
+                    <div class="hero-title">
+                        <span class="title-line">FULL-STACK</span>
+                        <span class="title-line">DEVELOPER</span>
+                        <span class="title-line accent">&</span>
+                        <span class="title-line accent">UI/UX DESIGNER</span>
+                    </div>
+                </div>
+
+                <!-- Profile Photo -->
+                <div class="profile-container">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image">
+                            <!-- YOUR PROFILE PHOTO HERE -->
+                            <img src="assets/images/profile.jpg" alt="Photo de profil de [MON NOM]">
+                        </div>
+                        <div class="profile-ring"></div>
+                        <div class="profile-decoration">DIGITAL CREATIVE</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Who Am I Section -->
+            <section class="who-am-i reveal" id="whoAmI">
+                <div class="section-label">
+                    <span class="section-number">01</span>
+                    <span class="section-title-text">WHO AM I?</span>
+                </div>
+                <p class="who-am-i-text">
+                    Full-Stack Developer and UI/UX Designer passionate about transforming 
+                    ideas into clean, intuitive and high-performing digital experiences.
+                </p>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills" id="skills">
+                <div class="section-label">
+                    <span class="section-number">02</span>
+                    <span class="section-title-text">EXPERTISE</span>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Skill 01 -->
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <span class="skill-number">01</span>
+                            <span class="skill-title">FRONT-END</span>
+                            <i class="fa-solid fa-code skill-icon"></i>
+                        </div>
+                        <p class="skill-description">HTML / CSS / JavaScript / TypeScript</p>
+                    </div>
+
+                    <!-- Skill 02 -->
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <span class="skill-number">02</span>
+                            <span class="skill-title">BACK-END</span>
+                            <i class="fa-solid fa-server skill-icon"></i>
+                        </div>
+                        <p class="skill-description">PHP / Laravel / Node.js / AdonisJS</p>
+                    </div>
+
+                    <!-- Skill 03 -->
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <span class="skill-number">03</span>
+                            <span class="skill-title">DATABASE</span>
+                            <i class="fa-solid fa-database skill-icon"></i>
+                        </div>
+                        <p class="skill-description">PostgreSQL / MySQL / SQLite</p>
+                    </div>
+
+                    <!-- Skill 04 -->
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <span class="skill-number">04</span>
+                            <span class="skill-title">UI/UX</span>
+                            <i class="fa-solid fa-pen-ruler skill-icon"></i>
+                        </div>
+                        <p class="skill-description">Figma / Prototyping / Design Systems</p>
+                    </div>
+
+                    <!-- Skill 05 -->
+                    <div class="skill-card reveal">
+                        <div class="skill-header">
+                            <span class="skill-number">05</span>
+                            <span class="skill-title">TOOLS</span>
+                            <i class="fa-solid fa-wrench skill-icon"></i>
+                        </div>
+                        <p class="skill-description">Git / GitHub / VS Code</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact" id="contact">
+                <div class="contact-info">
+                    <p class="contact-availability">AVAILABLE FOR</p>
+                    <p class="contact-types">Freelance / Collaboration / Opportunities</p>
+                </div>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-label">BASED IN</span>
+                        <span class="contact-value">Kinshasa, DRC</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">SPECIALIZED IN</span>
+                        <span class="contact-value">Web Development / UI/UX Design / Digital Products</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">CONTACT</span>
+                        <span class="contact-value">[VOTRE EMAIL] / [VOTRE TÉLÉPHONE]</span>
+                    </div>
+                </div>
+
+                <div class="contact-actions">
+                    <!-- Modifiez les liens href avec vos informations -->
+                    <a href="mailto:[VOTRE EMAIL]" class="btn-primary">
+                        LET'S TALK <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="btn-secondary">
+                        VIEW MY WORK <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>FULL-STACK DEVELOPMENT</span>
+            <span class="marquee-separator">—</span>
+            <span>UI/UX DESIGN</span>
+            <span class="marquee-separator">—</span>
+            <span>DIGITAL EXPERIENCES</span>
+            <span class="marquee-separator">—</span>
+            <span>FULL-STACK DEVELOPMENT</span>
+            <span class="marquee-separator">—</span>
+            <span>UI/UX DESIGN</span>
+            <span class="marquee-separator">—</span>
+            <span>DIGITAL EXPERIENCES</span>
+            <span class="marquee-separator">—</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 [MON NOM]. All rights reserved.</p>
+            <p>DESIGNED & DEVELOPED BY [MON NOM]</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
